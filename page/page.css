@@ -1,0 +1,27 @@
+html {
+  margin: 7%;
+  font-family: sans-serif;
+  font-size: x-large;
+  background-color: #fbfcd1;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  color: #b51616;
+}
+
+h2 {
+  color: #1649b3;
+}
+
+table tr td:first {
+  color: red; /* TODO: checking if works. */
+  font-weight: strong;
+}
+
+input {
+  font-size: x-large;
+}

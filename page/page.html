@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="/private/var/mobile/Library/Mobile Documents/iCloud~dk~simonbs~Scriptable/Documents/page/page.js"></script>
+    <link rel="stylesheet" href="/private/var/mobile/Library/Mobile Documents/iCloud~dk~simonbs~Scriptable/Documents/page/page.css" />
+  </head>
+
+  <body>
+    <h1>Monthly budgeting</h1>
+    <h2>Inputs</h2>
+
+    <form onChange="recalculate()">
+      <table>
+        <tr>
+          <td>Income</td>
+          <td><input type="number" value="20800" /></td>
+          <td>$XXX</td>
+        </tr>
+
+        <tr>
+          <td>Leave in FIO</td>
+          <td><input type="number" value="0" /></td>
+          <td>$XXX</td>
+        </tr>
+
+        <tr>
+          <td>Weekly budget</td>
+          <td>CZK XXX</td>
+          <td><input type="number" value="1500" /></td>
+        </tr>
+      </table>
+    </form>
+
+    <h2>Results</h2>
+    <div id="results">
+      <dl>
+        <dt>Number of weeks</dt>
+        <dd id="number-of-weeks" />
+
+        <dt>Savings</dt>
+        <dd id="savings" />
+      </dl>
+    </div>
+  </body>
+</html>
