@@ -1,1 +1,5 @@
 * Monthly budgeting
+
+* Pending
+** TODO Add config and allow to set leaveInFIO etc there (page.html gets returned as a string, maybe using %leaveInFIO% and replace these?
+** TODO It might be useful to make it a React page with link to a CDN React.js.
